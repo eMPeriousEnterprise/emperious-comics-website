@@ -5,7 +5,7 @@ const products = [
   { id: 4, title: "Uncanny X-Men #6", price: 7.99, image: "images/Uncanny%20X-Men%20%236.jpg" },
   { id: 5, title: "Captain America #6", price: 5.49, image: "images/Captain%20American%20%236.jpg" },
   { id: 6, title: "Black Panther #6", price: 4.49, image: "images/Black%20Panther%20%236.jpg" },
-  { id: 7, title: "Red Vengeance #1", price: 6.99, image: "https://placehold.co/300x450/450a0a/f87171?text=Red+Vengeance+%231" },
+  { id: 7, title: "The Amazing Spider-Man", price: 6.99, image: "images/The%20Amazing%20Spider-man.jpg" },
   { id: 8, title: "Blue Horizon #15", price: 5.99, image: "https://placehold.co/300x450/172554/60a5fa?text=Blue+Horizon+%2315" }
 ];
 
