@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emperious Comics — Curated Comics for Every Collector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo-link">
+      <img src="images/logo.jpg" alt="Emperious Comics" class="header-logo" width="160">
+    </a>
+    <nav class="main-nav">
+      <a href="#products" class="nav-link">Comics</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button id="cart-toggle" class="cart-toggle" aria-label="Open cart">
+        Cart <span class="cart-count" id="cart-count" aria-label="Cart items">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/logo.jpg" alt="Emperious Comics logo" class="hero-logo">
+      <h1 class="hero-title">Curated Comics for Every Collector</h1>
+      <p class="hero-subtitle">Discover legendary issues, indie gems, and everything in between.</p>
+      <a href="#products" class="btn btn-primary">Browse Comics</a>
+    </section>
+
+    <section id="products" class="products-section">
+      <h2 class="section-title">Featured Comics</h2>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2 class="section-title">About Emperious Comics</h2>
+      <p>We hand-pick the best comics for collectors of every level. Whether you are hunting a key issue or building your next binge-read stack, we have got you covered.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Get in Touch</h2>
+      <p>Email us at <a href="mailto:hello@emperiouscomics.com">hello@emperiouscomics.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Emperious Comics. All rights reserved.</p>
+  </footer>
+
+  <div id="cart-modal" class="modal" role="dialog" aria-label="Shopping cart" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel" role="document">
+      <div class="modal-header">
+        <h3 class="modal-title">Your Cart</h3>
+        <button class="close-modal" id="close-modal" aria-label="Close cart">&times;</button>
+      </div>
+      <ul id="cart-items" class="cart-items"></ul>
+      <div class="modal-footer">
+        <p class="cart-total">Total: <strong id="cart-total">$0.00</strong></p>
+        <button class="btn btn-primary" id="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
