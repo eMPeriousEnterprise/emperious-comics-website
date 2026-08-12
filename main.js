@@ -6,7 +6,7 @@ const products = [
   { id: 5, title: "Captain America #6", price: 5.49, image: "images/Captain%20American%20%236.jpg" },
   { id: 6, title: "Black Panther #6", price: 4.49, image: "images/Black%20Panther%20%236.jpg" },
   { id: 7, title: "The Amazing Spider-Man", price: 6.99, image: "images/The%20Amazing%20Spider-man.jpg" },
-  { id: 8, title: "Blue Horizon #15", price: 5.99, image: "https://placehold.co/300x450/172554/60a5fa?text=Blue+Horizon+%2315" }
+  { id: 8, title: "The Ultimates", price: 5.99, image: "images/The%20Ultimates.png" }
 ];
 
 const CART_KEY = "emperious_cart";
