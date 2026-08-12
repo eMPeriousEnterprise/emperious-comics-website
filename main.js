@@ -1,6 +1,6 @@
 const products = [
   { id: 1, title: "Carnage U.S.A.", price: 5.99, image: "images/caranageusa.jpg" },
-  { id: 2, title: "Cosmic Dawn #12", price: 4.99, image: "https://placehold.co/300x450/1e293b/3b82f6?text=Cosmic+Dawn+%2312" },
+  { id: 2, title: "Peter Parker The Spectacular Spider-man", price: 4.99, image: "images/peterparkerthespectacularspiderman.jpg" },
   { id: 3, title: "Shadow Blade #7", price: 6.49, image: "https://placehold.co/300x450/111/ffffff?text=Shadow+Blade+%237" },
   { id: 4, title: "Star Born #50", price: 7.99, image: "https://placehold.co/300x450/0f172a/60a5fa?text=Star+Born+%2350" },
   { id: 5, title: "Iron Ghost #3", price: 5.49, image: "https://placehold.co/300x450/2a0a0a/e31c25?text=Iron+Ghost+%233" },
