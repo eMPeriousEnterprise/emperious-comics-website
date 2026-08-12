@@ -3,8 +3,8 @@ const products = [
   { id: 2, title: "Peter Parker The Spectacular Spider-man", price: 4.99, image: "images/peterparkerthespectacularspiderman.jpg" },
   { id: 3, title: "Moon Knight", price: 6.49, image: "images/moonKnight.jpg" },
   { id: 4, title: "Uncanny X-Men #6", price: 7.99, image: "images/Uncanny%20X-Men%20%236.jpg" },
-  { id: 5, title: "Iron Ghost #3", price: 5.49, image: "https://placehold.co/300x450/2a0a0a/e31c25?text=Iron+Ghost+%233" },
-  { id: 6, title: "Nebula Tales #8", price: 4.49, image: "https://placehold.co/300x450/1e1b4b/818cf8?text=Nebula+Tales+%238" },
+  { id: 5, title: "Captain America #6", price: 5.49, image: "images/Captain%20American%20%236.jpg" },
+  { id: 6, title: "Black Panther #6", price: 4.49, image: "images/Black%20Panther%20%236.jpg" },
   { id: 7, title: "Red Vengeance #1", price: 6.99, image: "https://placehold.co/300x450/450a0a/f87171?text=Red+Vengeance+%231" },
   { id: 8, title: "Blue Horizon #15", price: 5.99, image: "https://placehold.co/300x450/172554/60a5fa?text=Blue+Horizon+%2315" }
 ];
