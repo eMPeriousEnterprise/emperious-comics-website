@@ -1,5 +1,5 @@
 const products = [
-  { id: 1, title: "Knightfall #1", price: 5.99, image: "https://placehold.co/300x450/1a1a2e/e31c25?text=Knightfall+%231" },
+  { id: 1, title: "Knightfall #1", price: 5.99, image: "images/caranageusa.jpg" },
   { id: 2, title: "Cosmic Dawn #12", price: 4.99, image: "https://placehold.co/300x450/1e293b/3b82f6?text=Cosmic+Dawn+%2312" },
   { id: 3, title: "Shadow Blade #7", price: 6.49, image: "https://placehold.co/300x450/111/ffffff?text=Shadow+Blade+%237" },
   { id: 4, title: "Star Born #50", price: 7.99, image: "https://placehold.co/300x450/0f172a/60a5fa?text=Star+Born+%2350" },
